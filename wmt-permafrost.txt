@@ -5,10 +5,9 @@
 #   > -c conda-forge
 #
 cca-tools
-pymt
+pymt==0.2  # version from 2016 AGU
 netcdf-fortran=4.4.4=5
 babelizer
 csdms-permamodel
 csdms-cmip
 ipython  # optional, for interactive testing
-
