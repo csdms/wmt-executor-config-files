@@ -1,0 +1,13 @@
+# A requirements.txt file for the wmt-permafrost executor.
+#
+# Install with:
+#   $ conda install --file wmt-permafrost.txt -c csdms-stack -c defaults \
+#   > -c conda-forge
+#
+cca-tools
+netcdf-fortran=4.4.4=5
+babelizer
+csdms-permamodel
+csdms-cmip
+ipython  # optional, for interactive testing
+

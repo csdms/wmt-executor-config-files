@@ -1,0 +1,11 @@
+# A requirements.txt file for the wmt-testing executor.
+#
+# Install with:
+#   $ conda install --file wmt-testing.txt -c csdms-stack -c defaults \
+#   > -c conda-forge
+#
+csdms-stack
+netcdf-fortran=4.4.4=5
+babelizer
+ipython  # optional, for interactive testing
+
