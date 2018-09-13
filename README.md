@@ -1,7 +1,11 @@
-# wmt-executor-requirements-files
+# wmt-executor-config-files
 
-Requirements files for setting up individual WMT executors.
+Conda configuration files for setting up individual WMT executors.
 
-Use:
+To use a **requirements,txt** file:
 
     conda install --file FILE -c csdms-stack -c defaults -c conda-forge
+
+To use an **environment.yml** file:
+
+    conda env create --file FILE
