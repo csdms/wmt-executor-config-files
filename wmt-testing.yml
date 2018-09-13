@@ -1,0 +1,18 @@
+# A conda environment file for the wmt-testing executor.
+#
+# Create the environment with:
+#   $ conda env create -f wmt-testing.yml
+#
+# Activate the environment:
+#   $ source activate wmt-testing
+
+name: wmt-testing
+channels:
+  - csdms-stack
+  - defaults
+  - conda-forge
+dependencies:
+  - csdms-stack
+  - netcdf-fortran=4.4.4=5  # https://csdms.colorado.edu/wiki/TestingExecutorBlanca#HDF5_and_file_locks
+  - babelizer
+  - ipython  # optional, for interactive testing

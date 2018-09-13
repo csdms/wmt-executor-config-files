@@ -1,0 +1,21 @@
+# A conda environment file for the wmt-permafrost executor.
+#
+# Create the environment with:
+#   $ conda env create -f wmt-permafrost.yml
+#
+# Activate the environment:
+#   $ source activate wmt-permafrost
+
+name: wmt-permafrost
+channels:
+  - csdms-stack
+  - defaults
+  - conda-forge
+dependencies:
+  - cca-tools
+  - pymt==0.2  # version from 2016 AGU
+  - netcdf-fortran=4.4.4=5
+  - babelizer
+  - csdms-permamodel
+  - csdms-cmip
+  - ipython  # optional, for interactive testing
