@@ -1,0 +1,27 @@
+# A conda environment file for the wmt-analyst executor.
+#
+# Create the environment with:
+#   $ conda env create -f wmt-analyst.yml
+#
+# Activate the environment:
+#   $ source activate wmt-analysis
+
+name: wmt-analyst
+channels:
+  - csdms-stack
+  - defaults
+  - conda-forge
+dependencies:
+  - python=2.7
+  - cca-tools
+  - pymt==0.2
+  - netcdf-fortran=4.4.4=5
+  - babelizer
+  - csdms-child
+  - csdms-sedflux-3d
+  - csdms-hydrotrend
+  - csdms-permamodel
+  - csdms-cmip
+  - csdms-brake
+  - csdms-pydeltarcm
+  - ipython  # optional, for interactive testing
