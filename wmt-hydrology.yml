@@ -14,7 +14,4 @@ channels:
 dependencies:
   - python=2.7
   - cca-tools
-  - pymt==0.2
-  - netcdf-fortran=4.4.4=5
-  - babelizer
   - ipython  # optional, for interactive testing
