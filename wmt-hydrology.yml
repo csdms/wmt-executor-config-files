@@ -1,0 +1,20 @@
+# A conda environment file for the wmt-hydrology executor.
+#
+# Create the environment with:
+#   $ conda env create -f wmt-hydrology.yml
+#
+# Activate the environment:
+#   $ source activate wmt-hydrology
+
+name: wmt-hydrology
+channels:
+  - csdms-stack
+  - defaults
+  - conda-forge
+dependencies:
+  - python=2.7
+  - cca-tools
+  - pymt==0.2
+  - netcdf-fortran=4.4.4=5
+  - babelizer
+  - ipython  # optional, for interactive testing
