@@ -1,0 +1,10 @@
+# A requirements.txt file for the wmt-analyst executor.
+#
+# Install with:
+#   $ conda install --file wmt-analyst.txt -c csdms-stack -c defaults \
+#   > -c conda-forge
+#
+csdms-stack
+netcdf-fortran=4.4.4=5
+babelizer
+ipython  # optional, for interactive testing
