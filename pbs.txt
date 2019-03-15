@@ -4,6 +4,7 @@
 #   $ conda install --file pbs.txt -c csdms-stack -c defaults -c conda-forge
 #
 #libgfortran-ng=7.3 # install separately through anaconda channel
+gfortran_linux-64=7.2
 cca-tools
 babelizer
 netcdf-fortran
