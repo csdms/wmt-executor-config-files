@@ -11,4 +11,5 @@ pymt==0.2
 csdms-ilamb=0.1.2
 nose
 ipython  # optional, for interactive testing
-
+markdown
+basic-modeling-interface
