@@ -1,0 +1,15 @@
+# A requirements.txt file for the PBS executor.
+#
+# Install with:
+#   $ conda install --file pbs.txt -c csdms-stack -c defaults \
+#   > -c conda-forge -c anaconda
+#
+libgfortran-ng=7.3
+cca-tools
+babelizer
+netcdf-fortran
+pymt==0.2
+csdms-ilamb=0.1.2
+nose
+ipython  # optional, for interactive testing
+
